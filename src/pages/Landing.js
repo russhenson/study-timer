@@ -5,8 +5,8 @@ import { minutesToSeconds } from "date-fns";
 import "../css/landing.css";
 import "../css/neu.css";
 
-const studyOptions = [1, 40, 50, 60, 70, 80, 90, 100, 110, 120];
-const breakOptions = [2, 15, 20, 25, 30, 35, 40, 45, 50, 60];
+const studyOptions = [30, 40, 50, 60, 70, 80, 90, 100, 110, 120];
+const breakOptions = [10, 15, 20, 25, 30, 35, 40, 45, 50, 60];
 
 export const Landing = () => {
   const [selected, setSelected] = useState(
