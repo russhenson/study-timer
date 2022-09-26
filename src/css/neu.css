@@ -1,0 +1,142 @@
+.timer-container,
+.configure-container {
+  width: 30rem;
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+}
+
+.configure-container,
+.timer-container {
+  flex-direction: column;
+}
+
+.timer-content {
+  text-align: center;
+  position: relative;
+}
+
+
+.embossed {
+  background: #e8ecf2;
+  color: #73787d;
+  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.8),
+    5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.debossed {
+  color: #ff6f00;
+  box-shadow: -1px -1px 5px rgba(255, 255, 255, 0.6),
+    1px 1px 5px rgba(0, 0, 0, 0.3), inset -2px -2px 5px rgba(255, 255, 255, 1),
+    inset 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.big-debossed {
+  background: #e8ecf2;
+  color: #73787d;
+  box-shadow: -4px -4px 5px rgba(255, 255, 255, 0.6),
+    4px 4px 8px rgba(0, 0, 0, 0.3), inset -5px -5px 8px rgba(255, 255, 255, 1),
+    inset 5px 5px 7px rgba(0, 0, 0, 0.3);
+}
+
+.circle {
+  border: 12px solid #e8ecf2;
+  border-radius: 100%;
+}
+
+.square {
+  border: 12px solid #e8ecf2;
+  border-radius: 10%;
+}
+
+.timer-count {
+  font-weight: 300;
+  font-size: 4rem;
+  font-family: "Roboto Mono", monospace;
+  line-height: 1;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  transition: all 250ms;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 200;
+}
+
+.neu-btn {
+  text-transform: uppercase;
+  background-color: #e8ecf2;
+  color: #73787d;
+  border-radius: 9999px;
+  width: 100%;
+  height: 3.6rem;
+  font-size: 14px;
+}
+
+.neu-main-btn {
+  text-transform: uppercase;
+  background-color: #e8ecf2;
+  color: #73787d;
+  border-radius: 9999px;
+  width: 100%;
+  height: 3.6rem;
+  margin-top: 2.4rem;
+  font-size: 16px;
+}
+
+.neu-option-btn {
+  border-radius: 100%;
+  width: 3rem;
+  height: 3rem;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+  background: #e8ecf2;
+  color: #73787d;
+  box-shadow: -3px -3px 5px rgba(255, 255, 255, 0.8),
+    3px 3px 5px rgba(0, 0, 0, 0.25);
+}
+
+.neu-btn:hover,
+.neu-main-btn:hover,
+.neu-option-btn:hover,
+.debossed-option {
+  color: #ff6f00;
+  box-shadow: -1px -1px 5px rgba(255, 255, 255, 0.6),
+    1px 1px 5px rgba(0, 0, 0, 0.3), inset -2px -2px 5px rgba(255, 255, 255, 1),
+    inset 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.options-wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.select-container-bottom {
+  margin-top: 3rem;
+}
+
+.subs {
+  color: rgba(0, 0, 0, 0.25);
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: absolute;
+  top: -30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
