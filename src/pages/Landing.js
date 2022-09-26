@@ -40,7 +40,14 @@ export const Landing = () => {
         workerTimers.clearInterval(countRef.current);
       };
     }
-  }, [studyTimer, start, isBreak, selected, selectedStudyOption, selectedBreakOption]);
+  }, [
+    studyTimer,
+    start,
+    isBreak,
+    selected,
+    selectedStudyOption,
+    selectedBreakOption,
+  ]);
 
   useEffect(() => {
     if (start && isBreak) {
@@ -149,6 +156,10 @@ export const Landing = () => {
           btnName="configure"
         />
       </div>
+      <p className="copyright">
+        <span>&copy;</span>
+        2K22 RUSS HENSON
+      </p>
     </div>
   );
 };

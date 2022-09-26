@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 1rem 2rem;
+  height: 100vh;
 }
 
 .button-wrapper {
@@ -12,4 +12,21 @@
   gap: 1.2rem;
   width: 100%;
   margin-top: 1.6rem;
+}
+
+.copyright {
+  font-size: 12px;
+  opacity: 0.2;
+  bottom: 0;
+  margin-bottom: 0.3rem;
+  font-family: 'Roboto Mono', monospace;
+  display: flex;
+  align-items: center;
+  margin-top: auto;
+}
+
+.copyright span {
+  font-size: 22px;
+  margin-right: 3px;
+  margin-bottom: 3px;
 }
